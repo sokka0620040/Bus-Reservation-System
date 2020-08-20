@@ -11,6 +11,7 @@ class Bus
     string dest;
 
 public:
+    Bus();
     Bus(string busname, string origin, string dest);
     string getBusname();
     string getOrigin();
@@ -19,5 +20,6 @@ public:
     void setOrigin(string origin);
     void setDest(string dest);
     void updateBus();
+    ~Bus();
 };
 #endif 
