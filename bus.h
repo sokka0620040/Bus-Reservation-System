@@ -20,6 +20,6 @@ public:
     void setOrigin(string origin);
     void setDest(string dest);
     void updateBus();
-    ~Bus();
+    ~Bus();//kamal sir
 };
 #endif 
